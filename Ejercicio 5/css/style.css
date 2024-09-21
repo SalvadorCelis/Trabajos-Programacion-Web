@@ -1,0 +1,32 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(130, 126, 126);
+    margin: 20px;
+    width: 300px;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 10px;
+}
+.tarjeta .imagen{
+    height: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.tarjeta .footer{
+    padding: 15px;
+}
+
+
